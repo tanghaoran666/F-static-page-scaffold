@@ -22,6 +22,7 @@ body {
   color: white;
   height: 25px;
   margin-left: 15px;
+  border-radius: 2px;
 }
 
 .logo {
