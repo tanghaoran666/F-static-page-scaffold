@@ -1,20 +1,64 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
 }
 
-* {
-  box-sizing: border-box;
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.header-title {
+  display: flex;
+  align-items: center;
+}
+.register-button {
+  background-color: #42b72a;
+  border: 0;
+  color: white;
+  height: 25px;
+  margin-left: 15px;
 }
 
-ul {
-  list-style: none;
+.logo {
+  font-size: 40px;
   margin: 0;
   padding: 0;
+}
+
+main {
+  padding: 10px 200px;
+}
+
+.desc-title {
+  margin: 10px 0;
+}
+
+.groups {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.group {
+  background: white;
+  text-align: center;
+  padding: 30px;
+  width: 42%;
+  border-radius: 10px;
+}
+
+.group-desc {
+  color: gray;
+}
+
+.group-btn {
+  margin-top: 100px;
+  border-radius: 0;
+  border: 1px lightgray solid;
+  padding: 3px 10px;
 }
